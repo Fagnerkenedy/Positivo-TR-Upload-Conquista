@@ -1,0 +1,60 @@
+.navbar .ant-layout-header {
+  color: #fafafa;
+  background: #07437b;
+  font-size: 1.5em;
+}
+
+.navbar .ant-layout-content {
+  background: white;
+  min-height: calc(100vh - 64px - 70px);
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .navbar .ant-layout-content {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .navbar .ant-layout-content {
+    padding: 20px 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .custom-alert {
+    width: 50%;
+  }
+  .ant-alert {
+    margin: auto !important;
+  }
+}
+.custom-alert .ant-alert-message {
+  font-weight: 700;
+  text-align: left;
+}
+.custom-alert .ant-alert-description {
+  text-align: left;
+}
+
+.steps-content {
+  /* margin-top: 16px; */
+  /* border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #fafafa; */
+  min-height: 200px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.steps-action {
+  margin-top: 24px;
+  text-align: right;
+}
+
+label.checkbox-substitute-message.ant-checkbox-wrapper {
+  padding-top: 20px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
